@@ -13,7 +13,7 @@
 % Use times if you have the font installed; otherwise, comment out the
 % following line.
 
-\usepackage{times}
+\usepackage{times,graphicx}
 
 % The preamble here sets up a lot of new/revised commands and
 % environments.  It's annoying, but please do *not* try to strip these
@@ -32,6 +32,32 @@
 
 
 %The next command sets up an environment for the abstract to your paper.
+
+\newcommand{\roots}  {\ensuremath{\sqrt{s}}}
+\newcommand{\rootsNN}  {\ensuremath{\sqrt{s_{_{NN}}}}}
+\newcommand{\pp}{\ensuremath{\text{pp}}\xspace}
+\newcommand{\pPb}{\ensuremath{\text{pPb}}\xspace}
+\newcommand{\dphi}     {\ensuremath{\Delta\phi}}
+\newcommand{\noff}    {\ensuremath{N_\text{trk}^\text{offline}}\xspace}
+\newcommand{\non}    {\ensuremath{N_\text{trk}^\text{online}}\xspace}
+\newcommand {\deta}     {\ensuremath{\Delta\eta}}
+\newcommand {\AonA}  {\ensuremath{\text{AA}}\xspace}
+\newcommand {\pA}    {\ensuremath{\text{pA}}\xspace}
+\newcommand {\PbPb}  {\ensuremath{\text{PbPb}}\xspace}
+\newcommand {\CuCu}  {\ensuremath{\text{CuCu}}\xspace}
+\newcommand {\AuAu}  {\ensuremath{\text{AuAu}}\xspace}
+\newcommand {\dAu}  {\ensuremath{\text{dAu}}\xspace}
+\newcommand{\mubinv} {\ensuremath{\,\mu\mathrm{b}^{-1}}\xspace}
+\newcommand{\mum} {\ensuremath{\,\mu\mathrm{m}}\xspace}
+\newcommand{\pt}       {\ensuremath{p_\mathrm{T}}}
+\newcommand{\Et}       {\ensuremath{E_\mathrm{T}}}
+\newcommand {\pta}       {\ensuremath{p_\mathrm{T}^{\mathrm{a}}}}
+\newcommand {\ptb}       {\ensuremath{p_\mathrm{T}^{\mathrm{b}}}}
+\newcommand {\etaa}       {\ensuremath{\eta^{\mathrm{a}}}}
+\newcommand {\etab}       {\ensuremath{\eta^{\mathrm{b}}}}
+\newcommand{\HYDJET} {\textsc{hydjet}\xspace}
+\newcommand{\AMPT} {\textsc{ampt}\xspace}
+\newcommand{\HIJING} {\textsc{hijing}\xspace}
 
 \newenvironment{sciabstract}{%
 \begin{quote} \bf}
